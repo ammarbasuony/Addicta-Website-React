@@ -1,0 +1,62 @@
+@import url("./assets/scss/_base/_variables.scss");
+
+// Include Fonts
+@font-face {
+  font-family: "Poppin";
+  font-weight: 500;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppin";
+  font-weight: 400;
+  src: url(assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppin";
+  font-weight: 300;
+  src: url(assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppin";
+  font-weight: 200;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppin";
+  font-weight: 100;
+  src: url(assets/fonts/Poppins-Light.ttf);
+}
+
+// All The Styling
+@import "assets/scss/all-style.scss";
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+// General Styling
+// --------------------------------
+body {
+  transition: all 0.3s ease-out;
+  background: $contactBg repeat-x center 100px;
+}
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.hr {
+  width: 67.945px;
+  height: 9.996px;
+  background-image: $hr;
+  margin: 10px auto;
+  display: table;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,81 @@
+// Main Colors [Brand]
+$purple: #6e18e9;
+$gray: #3d3c55;
+$green: #0fe0c7;
+$red: #ff6565;
+$white: #ffffff;
+$orange: #e1523d;
+
+// Animation
+/*
+ The typewriter cursor effect 
+*/
+@keyframes blink-caret {
+  from,
+  to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 10px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes comeBack {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+// Images
+$downArrow: url("assets/img/icons/down-arrow.svg");
+$leftArrow: url("../../img/icons/left-arrow.svg");
+$rightArrow: url("../../img/icons/right-arrow.svg");
+$pattern: url("../../img/illustrations/Pattern.png");
+$mobileMockup: url("../../img/mockups/Mobile_Mockup.png");
+$laptopMockup: url("../../img/mockups/Laptop_Mockup.png");
+$contactBg: url("assets/img/contacts/Ill_BG.svg");
+$contactMap: url("../../img/contacts/map.svg");
+$selectArrow: url("../../img/contacts/down_arrow.svg");
+$hr: url("../../img/icons/hr.svg");
+$foodPageBanner: url("../../img/CaseStudy/foodpage/banner.png");
+$sectionSeperator: url("../../img/CaseStudy/casestudy/icons/AAA.svg");
+$arrow: url("../../img/CaseStudy/down-arrow.svg");
+
+// Standard Typography
+$headline: 500 36px "Poppin";
+$paragraph: 200 22px "Poppin";
+//ggg
+$black: #666;
+
+$text-arrow-space: 16px;
+$shaft-width: 64px;
+$shaft-thickness: 2px;
+$arrow-head-width: 10px;
+$arrow-head-thickness: $shaft-thickness;

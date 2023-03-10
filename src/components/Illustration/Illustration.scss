@@ -1,0 +1,433 @@
+.cls-1,
+.cls-215 {
+    fill: #f3f8ff
+}
+
+.cls-106,
+.cls-107,
+.cls-147,
+.cls-148,
+.cls-149,
+.cls-2,
+.cls-201,
+.cls-34,
+.cls-39,
+.cls-88,
+.cls-93,
+.cls-96 {
+    fill: none
+}
+
+.cls-105,
+.cls-20,
+.cls-216,
+.cls-62 {
+    fill: #fff
+}
+
+.cls-214,
+.cls-23,
+.cls-29 {
+    fill: #becbdf
+}
+
+.cls-23 {
+    opacity: .6
+}
+
+.cls-207,
+.cls-25,
+.cls-56 {
+    fill: #a2b5d2
+}
+
+.cls-62 {
+    opacity: .8
+}
+
+.cls-53 {
+    mix-blend-mode: multiply
+}
+
+.cls-30 {
+    fill: #d9e1ed
+}
+
+.cls-31 {
+    fill: #e3edff
+}
+
+.cls-32 {
+    fill: #eaf2ff
+}
+
+.cls-206,
+.cls-33 {
+    fill: #d5dff1
+}
+
+.cls-34 {
+    stroke: #a2b5d2
+}
+
+.cls-201,
+.cls-34,
+.cls-88,
+.cls-96 {
+    stroke-linecap: round
+}
+
+.cls-106,
+.cls-107,
+.cls-147,
+.cls-148,
+.cls-149,
+.cls-201,
+.cls-34,
+.cls-39,
+.cls-88,
+.cls-93,
+.cls-96 {
+    stroke-miterlimit: 10
+}
+
+.cls-35 {
+    fill: #eff5ff
+}
+
+.cls-36 {
+    opacity: .08
+}
+
+.cls-38 {
+    fill: #c7d3e5
+}
+
+.cls-106,
+.cls-149,
+.cls-39 {
+    stroke: #909eaf
+}
+
+.cls-39 {
+    stroke-width: .53px
+}
+
+.cls-40 {
+    fill: #fafcff
+}
+
+.cls-44 {
+    fill: #3d3c55
+}
+
+.cls-45 {
+    fill: #ea2e49
+}
+
+.cls-47 {
+    fill: #333
+}
+
+.cls-53 {
+    fill: #f2f2f2
+}
+
+.cls-105,
+.cls-56 {
+    opacity: .25
+}
+
+.cls-59 {
+    fill: #dee5ef
+}
+
+.cls-62 {
+    mix-blend-mode: overlay
+}
+
+.cls-147,
+.cls-148,
+.cls-93 {
+    stroke: #c7d3e5
+}
+
+.cls-64 {
+    fill: #e2e9f2
+}
+
+.cls-88 {
+    stroke: #e3edff;
+    stroke-width: .5px
+}
+
+.cls-93 {
+    stroke-width: .91px
+}
+
+.cls-96 {
+    stroke: #b3bece;
+    stroke-width: .25px
+}
+
+.cls-99 {
+    fill: #b6bfce
+}
+
+.cls-201 {
+    stroke: #d9e1ed
+}
+
+.cls-106 {
+    stroke-width: .5px
+}
+
+.cls-107 {
+    stroke: #eff5ff;
+    stroke-width: 1.26px
+}
+
+.cls-148 {
+    stroke-width: .98px
+}
+
+.cls-150 {
+    fill: #ffd7b7
+}
+
+.cls-151 {
+    fill: #326fc0
+}
+
+.cls-153 {
+    fill: #e8c9b8
+}
+
+.cls-159 {
+    fill: #ffdfca
+}
+
+.cls-160 {
+    fill: #3f5765
+}
+
+.cls-161 {
+    fill: #131c39
+}
+
+.cls-162 {
+    fill: #f54f29
+}
+
+.cls-163 {
+    fill: #52ffe6
+}
+
+.cls-168 {
+    fill: #fc6a4a
+}
+
+.cls-169 {
+    fill: #354242
+}
+
+.cls-170 {
+    fill: #f8b195
+}
+
+.cls-177 {
+    fill: #1e2128
+}
+
+.cls-178 {
+    fill: #1c2226
+}
+
+.cls-180 {
+    fill: #e74c3c
+}
+
+.cls-181 {
+    fill: #333745
+}
+
+.cls-183 {
+    fill: #ffdc91
+}
+
+.cls-191 {
+    fill: #b23214
+}
+
+.cls-192 {
+    fill: #ff7171
+}
+
+.cls-193 {
+    fill: #f2a25c
+}
+
+.cls-201 {
+    stroke-width: .36px
+}
+
+.cls-202 {
+    fill: #bac4d3
+}
+
+.cls-206,
+.cls-207,
+.cls-214,
+.cls-215,
+.cls-216 {
+    fill-rule: evenodd
+}
+
+.cls-216 {
+    opacity: .55
+}
+
+// scalable icon
+.a {
+    fill: #ff7171;
+}
+
+.b {
+    fill: #fff;
+}
+
+.c {
+    filter: url(#a);
+}
+
+// Profissional icon
+.d {
+    fill: #3483e5;
+}
+
+.e {
+    filter: url(#d);
+}
+
+// profitable icon
+.f {
+    fill: #27dda1;
+}
+
+.g {
+    filter: url(#m);
+}
+
+// addictive icon
+.h {
+    fill: #6e18e9;
+}
+
+.i {
+    filter: url(#n);
+}
+
+// Our Classes & Animation 
+svg {
+    position: relative;
+    z-index: 8;
+}
+
+.scalable,
+.profitable,
+.addictive,
+.profissional {
+    opacity: 0;
+    transition: all 0.6s;
+
+    &.active {
+        opacity: 1;
+    }
+}
+
+.scalable-bw,
+.profitable-bw,
+.addictive-bw,
+.profissional-bw {
+    transition: all 0.6s;
+    opacity: 1;
+
+    &.active {
+        opacity: 0;
+    }
+}
+
+.floating-icon-0,
+.floating-icon-1,
+.floating-icon-2,
+.floating-icon-3 {
+    transition: all 0.9s;
+}
+
+.floating-icon-0 {
+    transform: translate(496px, -30px);
+
+    &.active-0 {
+        transform: translate(496px, -44px);
+    }
+}
+
+.floating-icon-1 {
+    transform: translate(260px, -28px);
+
+    &.active-1 {
+        transform: translate(260px, -42px);
+    }
+}
+
+.floating-icon-2 {
+    transform: translate(-45px, -38.34px);
+
+    &.active-2 {
+        transform: translate(-45px, -52.34px);
+    }
+}
+
+.floating-icon-3 {
+    transform: translate(856px, -42.34px);
+
+    &.active-3 {
+        transform: translate(856px, -56.34px);
+    }
+}
+
+#Ill_BG,
+#Illustration,
+#Characters,
+#Cars {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#Ill_BG {
+    transition-delay: 0s;
+}
+
+#Illustration {
+    width: 77.6%;
+    height: auto;
+    transition-delay: 0.4s;
+    margin-top: 3.8%;
+    left: 49.7%;
+}
+
+#Characters {
+    transition-delay: 0.8s;
+}
+
+#Cars {
+    transition-delay: 1.2s;
+    z-index: 9;
+    width: 66.4%;
+    bottom: 14%;
+    left: 42.35%;
+}
+
+.show {
+    opacity: 1 !important;
+}

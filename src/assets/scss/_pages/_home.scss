@@ -1,0 +1,549 @@
+.home {
+  display: flow-root;
+  // background-image: $pattern;
+  transition: all 0.7s;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  // Header
+  .home-header {
+    background-color: #fff;
+    display: flow-root;
+    // height: 100vh;
+
+    h2 {
+      text-align: center;
+      margin-top: 56px;
+      color: $gray;
+      font-family: "Poppin";
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 56px;
+
+      span {
+        color: $green;
+
+        &::after {
+          content: "";
+          height: 36px;
+          width: 4px;
+          background-color: #3d3c55;
+          display: -webkit-inline-box;
+          margin-left: 8px;
+          animation-name: blink-caret;
+          animation-iteration-count: infinite;
+          animation-duration: 0.8s;
+        }
+      }
+    }
+
+    h3 {
+      display: block;
+      text-align: center;
+      position: relative;
+      z-index: 9;
+      font-family: "Poppin";
+      font-weight: 100;
+      font-size: 16px;
+    }
+
+    i {
+      &.down-arrow {
+        width: 28px;
+        height: 15px;
+        background-image: url("../../img/icons/down-arrow.svg");
+        background-position: center;
+        background-size: cover;
+        margin: 15px auto 15px;
+        display: -webkit-box;
+        animation: jump 3s infinite;
+        position: relative;
+        z-index: 999;
+        cursor: pointer;
+      }
+    }
+
+    .illustration {
+      margin-top: -195px;
+      position: relative;
+
+      img {
+        position: absolute;
+        width: 100%;
+        transform: translateX(-50%);
+        left: 50%;
+      }
+    }
+  }
+
+  // Case Studies
+  .case-studies {
+    .case {
+      height: 100vh;
+      background-position: right;
+      background-size: contain;
+      // display: flex;
+      overflow: hidden;
+      position: relative;
+      // align-items: center;
+      background-repeat: no-repeat;
+
+      .row {
+        height: 100vh;
+      }
+
+      .left-gradient {
+        opacity: 0;
+        transition: opacity 0.9s;
+        height: 100%;
+        width: 550px;
+        position: absolute;
+        // transition-delay: 0.3s;
+      }
+
+      .content {
+        // h1,
+        // h3,
+        // p,
+        // a {
+        //     opacity: 0;
+        //     position: relative;
+        //     top: 30px;
+        //     transition: all 0.5s;
+        // }
+
+        h1 {
+          font-family: "Poppin";
+          font-weight: 500;
+          color: #ffffff;
+          font-size: 62px;
+          // transition-delay: 0.1s;
+        }
+
+        h3 {
+          font-family: "Poppin";
+          font-weight: 300;
+          color: #ffffff;
+          font-size: 32px;
+          // transition-delay: 0.2s;
+        }
+
+        p {
+          font-family: "Poppin";
+          font-weight: 100;
+          color: #ffffff;
+          font-size: 24px;
+          padding-right: 68px;
+          margin-bottom: 30px;
+          // transition-delay: 0.3s;
+        }
+
+        a {
+          padding: 14px 17px;
+          border: 1px solid #fff;
+          border-radius: 5px;
+          color: #fff;
+          display: -webkit-inline-box;
+          transition: all 0.3s;
+          font-size: 16px;
+          font-family: "Poppin";
+          font-weight: 200;
+
+          i {
+            margin-left: 12px;
+          }
+
+          &:hover {
+            color: $gray;
+            background-color: #fff;
+          }
+        }
+      }
+
+      .mob-mockup {
+        background-image: $mobileMockup;
+        width: 260px;
+        height: 523px;
+        float: right;
+        background-position: center;
+        background-size: contain;
+        transition: all 0.5s;
+        /*opacity: 0;
+                position: relative;
+                top: 130px;*/
+        background-repeat: no-repeat;
+
+        &.goleft {
+          float: left;
+        }
+
+        video {
+          width: 227px;
+          margin: 60px auto 0;
+          display: -webkit-box;
+          align-items: center;
+        }
+      }
+
+      .laptop-mockup {
+        --scale: 30px;
+        background-image: $laptopMockup;
+        height: calc(506px - var(--scale));
+        width: calc(880px - var(--scale));
+        background-position: center;
+        margin-left: -36px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+        /*opacity: 0;
+                position: relative;
+                top: 130px;*/
+        display: flow-root;
+
+        &.goleft {
+          float: right;
+        }
+
+        video {
+          width: 74%;
+          margin: 30px auto 0;
+          display: -webkit-box;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  // On Scroll
+  /*&.scrolling {
+        // background-image: $pattern;
+
+        .case {
+            .content {
+
+                h1,
+                h3,
+                p,
+                a {
+                    opacity: 1 !important;
+                    top: 0px !important;
+                }
+            }
+
+            .mob-mockup,
+            .laptop-mockup {
+                opacity: 1 !important;
+                top: 0 !important;
+            }
+        }
+    }*/
+  // &.show-gradient {
+  //     .left-gradient {
+  //         opacity: 1 !important;
+  //     }
+  // }
+
+  // First Case Study
+  &.vetcode-gradient {
+    background-color: #886fe5;
+
+    .left-gradient {
+      background: linear-gradient(
+        to right,
+        rgba(118, 97, 195, 1),
+        rgba(118, 97, 195, 1),
+        transparent
+      );
+    }
+  }
+
+  // Second Case Study
+  &.foodpage-gradient {
+    background-color: #f56f59;
+
+    .left-gradient {
+      background: linear-gradient(
+        to right,
+        rgba(226, 84, 60, 1),
+        rgba(226, 84, 60, 1),
+        transparent
+      );
+    }
+  }
+
+  // Third Case Study
+  &.el-hrameen-gradient {
+    background-color: rgba(43, 163, 121, 1);
+
+    .left-gradient {
+      background: linear-gradient(
+        to right,
+        rgba(65, 178, 132, 1),
+        rgba(65, 178, 132, 1),
+        transparent
+      );
+    }
+  }
+
+  // Forth Case Study
+  &.new-frontiers-gradient {
+    background-color: #d64d4c;
+
+    .left-gradient {
+      background: linear-gradient(
+        to right,
+        rgba(217, 67, 59, 1),
+        rgba(217, 67, 59, 1),
+        transparent
+      );
+    }
+  }
+
+  // Fifth Case Study
+  &.accm-gradient {
+    background-color: #3d99c2;
+
+    .left-gradient {
+      background: linear-gradient(
+        to right,
+        rgba(0, 119, 171, 1),
+        rgba(0, 119, 171, 1),
+        transparent
+      );
+    }
+  }
+
+  // Services
+  .services {
+    padding: 120px 0 80px;
+    background-color: #fff;
+
+    h2 {
+      color: $gray;
+      font: $headline;
+      text-align: center;
+    }
+
+    p {
+      font: $paragraph;
+      text-align: center;
+      margin-top: 22px;
+      color: $gray;
+    }
+
+    .services-items {
+      margin-top: 75px;
+
+      .item {
+        margin-bottom: 60px;
+
+        img {
+          width: 34px;
+          height: auto;
+          margin-right: 15px;
+          float: left;
+        }
+
+        section {
+          display: flow-root;
+
+          h3 {
+            margin-top: 10px;
+            color: $gray;
+            margin-bottom: 4px;
+            font: $paragraph;
+            font-weight: 300;
+          }
+
+          span {
+            color: $gray;
+            font: $paragraph;
+            font-weight: 200;
+            font-size: 14px;
+          }
+        }
+      }
+
+      a {
+        margin: 15px auto 0;
+        display: table;
+      }
+    }
+  }
+
+  // Process
+  .process {
+    background-color: #fff;
+    padding: 40px 0 110px;
+    background-color: #fff;
+
+    h2 {
+      color: $gray;
+      font: $headline;
+      text-align: center;
+    }
+
+    p {
+      font: $paragraph;
+      text-align: center;
+      margin-top: 22px;
+      color: $gray;
+    }
+
+    a {
+      margin: 15px auto 0;
+      display: table;
+    }
+
+    .progression {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 73px;
+
+      .entry {
+        margin: 0 40px;
+
+        img {
+          width: auto;
+          height: 40px;
+          margin: 0 auto;
+          display: table;
+        }
+
+        h3 {
+          font: $paragraph;
+          color: $gray;
+          text-align: center;
+
+          &::before {
+            content: "";
+            border-radius: 50%;
+            width: 12px;
+            height: 12px;
+            background-color: #c9ddf9;
+            margin: 33px auto;
+            display: -webkit-box;
+          }
+        }
+
+        &:first-of-type {
+          h3 {
+            &::before {
+              background-color: unset;
+              height: unset;
+              width: unset;
+              border-left-width: 12px;
+              border: 8px solid;
+              border-color: transparent transparent transparent #c9ddf9;
+              border-radius: unset;
+              display: table;
+              margin-top: 30.5px;
+              left: 0;
+              transition: all 0.2s;
+            }
+          }
+        }
+
+        &:nth-of-type(6) {
+          h3 {
+            &::before {
+              border-radius: unset;
+            }
+          }
+        }
+      }
+
+      .timeline {
+        width: 82.89%;
+        margin: 0 auto;
+        height: 1px;
+        position: absolute;
+        background-color: rgba(201, 221, 249, 1);
+        top: 78px;
+      }
+    }
+  }
+
+  // Testimonial
+  .testimonial {
+    background-color: #fff;
+    padding: 70px 0;
+    text-align: center;
+
+    h2 {
+      color: $gray;
+      font: $headline;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-family: "Poppin";
+      font-size: 22px;
+      color: $gray;
+      margin: auto;
+      width: 70%;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    .person {
+      margin-top: 22px;
+
+      .img {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        display: flex;
+        align-items: center;
+        box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.12);
+
+        img {
+          width: 100%;
+        }
+      }
+
+      h3 {
+        font-family: "Poppin";
+        font-weight: 500;
+        color: $purple;
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      span {
+        color: $gray;
+        font-family: "Poppin";
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 200;
+      }
+    }
+
+    .slick-next {
+      background-image: $rightArrow;
+    }
+
+    .slick-prev {
+      background-image: $leftArrow;
+    }
+
+    .slick-next,
+    .slick-prev {
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &::before {
+        font-family: unset !important;
+        content: "" !important;
+      }
+    }
+  }
+}

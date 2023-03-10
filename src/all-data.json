@@ -1,0 +1,1420 @@
+{
+    "case_studies": [
+        {
+            "id": 1,
+            "project_name": "VetCode",
+            "project_short_description": "Veterinary Mobile App.",
+            "project_full_description": "Petting & Vetting in Egypt is growing by the day, We designed and branded VetCode a user friendly app to enhance both the pet owner and the vet’s experience.",
+            "project_ui_video": "./videos/VetCode_UI.mp4",
+            "class_name": "vetcode-gradient",
+            "type": "mobile-app",
+            "slug": "vetcode"
+        },
+        {
+            "id": 2,
+            "project_name": "Food Page",
+            "project_short_description": "Food Delivery Mobile App.",
+            "project_full_description": "We helped in creating Foodpage’s brand identity and designed it's application to be a simple and unique in the ever growing market of online food ordering. ",
+            "project_ui_video": "./videos/FoodPage_UI_Addicta.mp4",
+            "class_name": "foodpage-gradient",
+            "type": "mobile-app",
+            "slug": "food-page"
+        },
+        {
+            "id": 3,
+            "project_name": "ACCM",
+            "project_short_description": "Oil & Gaz Website",
+            "project_full_description": "We are proud to be the ones who revamped ACCM’s website to make it easier to navigate and to have higher traffic",
+            "project_ui_video": "./videos/ACCM_UI_Addicta_1.mp4",
+            "class_name": "accm-gradient",
+            "type": "website",
+            "slug": "accm"
+        },
+        {
+            "id": 4,
+            "project_name": "New Frontiers",
+            "project_short_description": "IT Solutions Website",
+            "project_full_description": "Revamping new frontier website and logo was a big challenge; yet here we go the website now is having better presence and much easier website navigation.",
+            "project_ui_video": "./videos/NF_UI_Addicta_1.mp4",
+            "class_name": "new-frontiers-gradient",
+            "type": "website",
+            "slug": "nf"
+        }
+    ],
+    "testimonial": [
+        {
+            "id": 1,
+            "person_name": "Dr. Ahmed El-Badawy",
+            "person_description": "CEO/Founder at Vetcode",
+            "feedback": "Addicta team capable to transform my business requirements into an intuitive user experience design."
+        },
+        {
+            "id": 2,
+            "person_name": "Eng. Mohamed Farid",
+            "person_description": "Project Manager at Fixed Solution",
+            "feedback": "Fixed solutions company was pleased to deal with Addicta as the company has provided lots of high-quality UX/UI services in a highly mannered timing through such a creative and talented team."
+        },
+        {
+            "id": 3,
+            "person_name": "Eng. Amr Watar",
+            "person_description": "Business Analyst at New Frontiers",
+            "feedback": "Addicta is a trustworthy company, I like to work with them."
+        },
+        {
+            "id": 4,
+            "person_name": "Eng. Nader Kamal",
+            "person_description": "Technical Support Section Head at ASCOM",
+            "feedback": "They have a good reaction towards everything including the situations that you hold no responsibility for, they receive and accept feedback really well, they are cooperative and make things easier for everyone."
+        }
+    ],
+    "services": [
+        {
+            "service_id": 1,
+            "title": "Branding",
+            "description": "Your Successful product needs a well presented branding to convey your customers…",
+            "icon": "Branding_icon.png"
+        },
+        {
+            "service_id": 2,
+            "title": "User Research",
+            "description": "Hypothesis is not always the right thing to do, we help you to validate your hypothesis …",
+            "icon": "User_icon.png"
+        },
+        {
+            "service_id": 3,
+            "title": "UX Design",
+            "description": "Structuring and labeling content and designing usable high fidelity wireframes, helps you to…",
+            "icon": "UX_icon.png"
+        },
+        {
+            "service_id": 4,
+            "title": "UI Design",
+            "description": "Designing a colored authentic design and simulate it in interactive mockups can help you to…",
+            "icon": "UI_icon.png"
+        },
+        {
+            "service_id": 5,
+            "title": "Front-end Development",
+            "description": "From an interactive prototype to a real live product, we help you to develop your digital product…",
+            "icon": "Dev_icon.png"
+        },
+        {
+            "service_id": 6,
+            "title": "Usability Testing & Reports",
+            "description": "After launching your digital solution we will make sure that your product is in the right direction…",
+            "icon": "Test_icon.png"
+        }
+    ],
+    "full_services": [
+        {
+            "service_id": 1,
+            "title": "Branding",
+            "description": "Your Successful product needs a well presented branding to convey your customers to use and buy your services.",
+            "Deliverables": "Logo concepts, StyleGuide, Design System and Moodboards.",
+            "icon": "Branding_icon.png"
+        },
+        {
+            "service_id": 2,
+            "title": "UX Strategy",
+            "description": "If you find it hard to imagine your business transforming into the digitized era, how to breakdown your business solutions into phases, we are ready to provide you with the UX strategy tailored to your needs.",
+            "Deliverables": "Strategy consultation, Ideation session, identifying business goals, writing business requirement document (BRD).",
+            "icon": "UX_icon.png"
+        },
+        {
+            "service_id": 3,
+            "title": "UX Research",
+            "description": "Hypothesis is not always the right thing to do, we help you to validate your hypothesis and requirements with users’ needs and competitors in the same field to achieve a successful product.",
+            "Deliverables": "Competitive Analysis, User Research, defined Personas and User scenarios.",
+            "icon": "UX_icon.png"
+        },
+        {
+            "service_id": 4,
+            "title": "UX Design",
+            "description": "Structuring and labeling content and designing usable high fidelity wireframes, helps you to visualize imagine your digital product.",
+            "Deliverables": "Information Architecture (IA) and Design Wireframes.",
+            "icon": "UX_design_icon.png"
+        },
+        {
+            "service_id": 5,
+            "title": "UI Design",
+            "description": "Designing a colored authentic design and simulate it in interactive mockups can help you to have a stunning demo or pitch deck in front of your investors.",
+            "Deliverables": "Visual UI Design, interactive mockups, micro interaction / animation and creating assets for developers.",
+            "icon": "UI_icon.png"
+        },
+        {
+            "service_id": 6,
+            "title": "Development",
+            "description": "From an interactive prototype to a real live product, we help you to develop your digital product.",
+            "Deliverables": "Front-end Development, Mobile Development and Backend Development.",
+            "icon": "Dev_icon.png"
+        },
+        {
+            "service_id": 7,
+            "title": "Testing & Reports",
+            "description": "After launching your digital solution we will make sure that your product is in the right direction by testing and taking reviews from your users.",
+            "Deliverables": "Usability testing, Recorded user’s behaviors, Conversion funnel, survey and Development support.",
+            "icon": "Test_icon.png"
+        }
+    ],
+    "works_case_studies": [
+        {
+            "name": "VetCode app",
+            "series": [
+                "Mobile",
+                "Website",
+                "Branding",
+                "Animation"
+            ],
+            "image": "VetCode.jpg",
+            "slug": "vetcode",
+            "page": {
+                "banner": {
+                    "main_title": "VetCode",
+                    "secondery_title": "Veterinary Care MobApp",
+                    "text": "Petting & Vetting in Egypt is growing by the day, we designed and branded VetCode a user-friendly app to enhance both the pet owner and the vet’s experience.",
+                    "banner": "vetcode/vet-banner.jpg",
+                    "categories": [
+                        {
+                            "img": "CaseStudy/casestudy/icons/Branding_icon.svg",
+                            "name": "Branding"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/mobile.svg",
+                            "name": "Mobile"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/website.svg",
+                            "name": "Website"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/animation.svg",
+                            "name": "Animation"
+                        }
+                    ]
+                },
+                "section": {
+                    "about": {
+                        "title": "Exploring new fields!",
+                        "text": "VetCode is a Mobile technology startup that is specialized in pets' care services in Cairo. Our main challenge was designing an authentic brand and stellar user experience to enhance the veterinary market experience in Egypt.",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "about",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand": {
+                        "title": "Trendy Branding",
+                        "text": "Vetcode was injected in the  emerging VET market and is relatively  a brand new business model accordingly we opted for a trendy logo in concept and in colors to match market needs.",
+                        "image": "CaseStudy/vetcode/VC_1.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "brand",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "wireframe": {
+                        "title": "Sketches, Wireframes and Ideation",
+                        "text": "We practised agile techniques through multiple meetings and iterations with our client to sketch and design wireframe features to meet the set business goals and user needs.",
+                        "image": "CaseStudy/vetcode/VC_2.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "interactions": {
+                        "title": "UI Design & Micro Interactions",
+                        "text": "Designing an authentic and visual mobile application was challenging as it had catchy onboarding animation and reliable at the same time.",
+                        "image": "",
+                        "video": [],
+                        "last": true,
+                        "imgs": [
+                            {
+                                "img": "vetcode/1.gif",
+                                "caption": ""
+                            },
+                            {
+                                "img": "vetcode/2.gif",
+                                "caption": ""
+                            },
+                            {
+                                "img": "vetcode/3.gif",
+                                "caption": ""
+                            },
+                            {
+                                "img": "vetcode/4.gif",
+                                "caption": ""
+                            }
+                        ],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "justify-center col-md-12",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "features": {
+                        "title": "",
+                        "text": "",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "features",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "mockup",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        },
+                        "feature": [
+                            {
+                                "title": "My Pets",
+                                "text": "Your dedicated pet profile and medical records.",
+                                "image": "CaseStudy/vetcode/VetCode_1.png",
+                                "Classmain": "",
+                                "Classtext": "col ml-3",
+                                "ClassimageContainer": "col-md-3"
+                            },
+                            {
+                                "title": "Vet Care",
+                                "text": "Home-Care veterinary, grooming and training services.",
+                                "image": "CaseStudy/vetcode/VetCode_2.png",
+                                "Classmain": "flex-row-reverse",
+                                "Classtext": "col",
+                                "ClassimageContainer": "col-md-3 text-right"
+                            },
+                            {
+                                "title": "Pet Shop",
+                                "text": "Adoption, mating, selling, buying, lost and found services.",
+                                "image": "CaseStudy/vetcode/VetCode_3.png",
+                                "Classmain": "",
+                                "Classtext": "col-md-6 ml-3",
+                                "ClassimageContainer": "col-md-3"
+                            }
+                        ]
+                    },
+                    "commercial": {
+                        "title": "Commercial Website",
+                        "text": "We wanted only one page to show how we could merge professionalism and reliable mobile features together.",
+                        "image": "CaseStudy/vetcode/full.jpg",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "section": {
+                        "title": "Let's Go Viral!",
+                        "text": "We were given the opportunity to establish a targeted commercial advertisement for two audiences; Pet owners and veterinarians.",
+                        "image": "CaseStudy/vetcode/ss.png",
+                        "video": [],
+                        "last": true,
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "video": {
+                        "title": "",
+                        "text": "",
+                        "image": "",
+                        "video": [
+                            "https://www.youtube.com/embed/JC09l-p12X0",
+                            "https://www.youtube.com/embed/LcO30Gre92g"
+                        ],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "",
+                            "ClassOptions": "text",
+                            "ClassVideo": "col-md-6",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "product": {
+                        "title": "Product Achievements",
+                        "text": "",
+                        "image": "CaseStudy/vetcode/product.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "testemony": {
+                        "title": "“Addicta team capable to transform my business requirements into an intuitive user experience design.”",
+                        "subtitle": "Dr. Ahmed El-Badawy",
+                        "text": "CEO/Founder at Vetcode",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "testemony",
+                            "Classtitle": "text-center",
+                            "ClassSubtitle": "text-center mb-0 purple",
+                            "Classtext": "text-center",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Food Page app",
+            "series": [
+                "Mobile",
+                "Branding"
+            ],
+            "image": "FoodPage.jpg",
+            "slug": "food-page",
+            "page": {
+                "banner": {
+                    "main_title": "Food Page",
+                    "secondery_title": "Food Delivery MobApp",
+                    "text": "We designed foodpage to be a simple and unique mobile application in the ever-growing market of online food ordering. ",
+                    "banner": "foodpage/foodpage-banner.jpg",
+                    "categories": [
+                        {
+                            "img": "CaseStudy/casestudy/icons/Branding_icon.svg",
+                            "name": "Branding"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/UX_icon.svg",
+                            "name": "UX Activities"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/mobile.svg",
+                            "name": "Mobile Design"
+                        }
+                    ]
+                },
+                "section": {
+                    "about": {
+                        "title": "Design Challenge",
+                        "text": "Foodpage is food ordering and doorstep delivery app. The tough competition in the online food-ordering market, the tight schedule and not being provided much information about the users’ needs made our mission in creating a friendly mobile app and designing strong brand presence a challenging.",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "about",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand": {
+                        "title": "Brand Identity",
+                        "text": "We have proposed 3 different logo design concepts, each concept has its own uniqueness.",
+                        "image": "CaseStudy/foodpage/FP_G.svg",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "brand",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "wireframe": {
+                        "title": "Sketches and wireframes",
+                        "text": "We have worked on sketches and design high fidelity wireframes in parallel.",
+                        "image": "CaseStudy/foodpage/wireframe.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "features": {
+                        "title": "Visual Design and Features",
+                        "text": "Designing an authentic visual design in an interactive mockup",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "features",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        },
+                        "feature": [
+                            {
+                                "title": "Discovery",
+                                "text": "sers can discover a wide variety of restaurants and eateries that have discounts and offers, they might as well filter them by areas and cuisines.",
+                                "image": "CaseStudy/foodpage/1.png",
+                                "Classmain": "",
+                                "Classtext": "col-md-6",
+                                "ClassimageContainer": "col-md-6"
+                            },
+                            {
+                                "title": "Multi-order",
+                                "text": "User can order different meals from different places at the same time and have them delivered to doorstep within a convenient ETA.",
+                                "image": "CaseStudy/foodpage/2.png",
+                                "Classmain": "flex-row-reverse",
+                                "Classtext": "col-md-6",
+                                "ClassimageContainer": "col-md-6 text-right"
+                            },
+                            {
+                                "title": "Collective Orders",
+                                "text": "User can schedule order for a specific time and have it delivered on time.",
+                                "image": "CaseStudy/foodpage/3.png",
+                                "Classmain": "",
+                                "Classtext": "col-md-6",
+                                "ClassimageContainer": "col-md-4"
+                            }
+                        ]
+                    },
+                    "social": {
+                        "title": "Launching the App and Social Activities",
+                        "text": "Application is now live, we have worked in some social media management, design posts and creating ads videos.",
+                        "image": "Post_1.png",
+                        "imgs": [
+                            "Posts.png"
+                        ]
+                    },
+                    "video": {
+                        "title": "Billboard Video Advertisment",
+                        "text": "",
+                        "image": "",
+                        "video": [
+                            "https://www.youtube.com/embed/oRtInU499M4"
+                        ],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-6",
+                            "ClassOptions": "text",
+                            "ClassVideo": "col-md-6",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "download": {
+                        "title": "The application is available for IOS and Android",
+                        "image": "foodpage/Mock.png",
+                        "stores": {
+                            "google_play": "https://www.google.com",
+                            "app_store": "https://www.apple.com"
+                        },
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "ClassSubtitle": "",
+                            "Classtext": "",
+                            "Classlayout": "text col-md-4",
+                            "ClassimageContainer": "col-md-7 offset-md-1"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "New Frontiers website",
+            "series": [
+                "Website",
+                "Branding"
+            ],
+            "image": "NF_CS_C.png",
+            "slug": "nf",
+            "page": {
+                "banner": {
+                    "main_title": "New Frontiers",
+                    "secondery_title": "IT Solutions Website",
+                    "text": "We are proud to be the ones who revamped and redesign ACCM’s website to make it easier in navigation and to have a higher impact in Geology & mining field.",
+                    "banner": "newfrontier/frontierbanner.jpg",
+                    "categories": [
+                        {
+                            "img": "CaseStudy/casestudy/icons/Branding_icon.svg",
+                            "name": "Branding"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/website.svg",
+                            "name": "Website"
+                        }
+                    ]
+                },
+                "section": {
+                    "about": {
+                        "title": "The Story of Challenge",
+                        "text": "New frontier is a leading global IT services company in the Middle East. They had a total renovation as they had their brand identity renovated and their website revamped. Now new frontiers is enjoying a brand new appearance and it can strongly compete with other IT competitors in the Middle East.",
+                        "image": "",
+                        "video": [],
+                        "imgs":[
+                            {
+                                "img": "newfrontier/Old-Display.png",
+                                "caption": "- Old website"
+                            },
+                            {
+                                "img": "newfrontier/New.png",
+                                "caption": "- New website"
+                            }
+                        ],
+                        "classes": {
+                            "Classmain": "about",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "justify-center col-md-12",
+                            "Classimage": "mx-2 photo",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand": {
+                        "title": "Brand Identity",
+                        "text": "We designed 3 different logo design concepts, each one of them had its own authenticity.",
+                        "image": "",
+                        "video": [],
+                        "imgs":[
+                            {
+                                "img": "newfrontier/Asset1.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/NF_Logo.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/oW2e32.tif.png",
+                                "caption": ""
+                            }
+                            
+                        ],
+                        "classes": {
+                            "Classmain": "brand",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "brand-logos col-md-12 d-flex",
+                            "Classimage": "col-md-4",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand2": {
+                        "title": "",
+                        "text": "and finally they chose the 2nd one, we have designed stationary and company profile.",
+                        "image": "",
+                        "video": [],
+                        "imgs":[
+                            {
+                                "img": "newfrontier/St-mock.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/st-mock2.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/CP_1.png",
+                                "caption": ""
+                            }
+                        ],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "d-flex flex-wrap wrap-img",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "sitemap": {
+                        "title": "Sitemap & Visual Design",
+                        "text": "In spite of being expedited to launch the website and not having enough time to do any wireframes, we managed to structure the whole sitemap using sketches and then we immediately started visual designing.",
+                        "image": "CaseStudy/newfrontier/nfui.gif",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "sitemap",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "col-md-4 order-md-first",
+                            "Classimage": "",
+                            "Classlayout": "col-md-8 order-md-last align-center",
+                            "ClassSection": ""
+                        },
+                        "last": true
+                    },
+                    "masonry": {
+                        "title": "",
+                        "text": "",
+                        "image": "",
+                        "imgs": [
+                            {
+                                "img": "newfrontier/page1.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/page2.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/page3.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "newfrontier/page4.png",
+                                "caption": ""
+                            }
+                        ],
+                        "video": [],
+                        "classes": {
+                            "Classmain": "masonry",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "col-md-12 columns",
+                            "Classimage": "",
+                            "Classlayout": "",
+                            "ClassSection": "section no-opacity"
+                        }
+                    },
+                    "download": {
+                        "title": "Launching the App and Social Activities",
+                        "text": "We developed a responsive website that operates on tablets, desktops and mobiles using wordpress for backend development, now New frontiers’ website is enjoying new presence and it can strongly compete with other IT competitors in the Middle East.",
+                        "meta": "Commercial website: http://newfrontierskw.com/",
+                        "image": "newfrontier/responsive-mock.png",
+                        "stores": {
+                            "google_play": "",
+                            "app_store": ""
+                        },
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "ClassSubtitle": "",
+                            "Classtext": "",
+                            "Classlayout": "text col-md-5",
+                            "ClassimageContainer": "col-md-7"
+                        }
+                    },
+                    "testemony": {
+                        "title": "“Addicta is a trustworthy company, I like to work with them.”",
+                        "subtitle": "Eng. Amr Watar",
+                        "text": "Business Analyst at New Frontiers",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "testemony",
+                            "Classtitle": "text-center",
+                            "ClassSubtitle": "text-center mb-0",
+                            "Classtext": "text-center",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "CLS website",
+            "series": [
+                "Website"
+            ],
+            "image": "CLS.jpg",
+            "slug": "cls",
+            "page": {
+                "banner": {
+                    "main_title": "CLS Learning",
+                    "secondery_title": "Courses Website",
+                    "text": "From Old Classic Education center website to a new trendy website design, CLS has a better look and can compete strongly in education field.",
+                    "banner": "cls/banner.jpg",
+                    "categories": [
+                        {
+                            "img": "CaseStudy/casestudy/icons/website.svg",
+                            "name": "Website design"
+                        }
+                    ]
+                },
+                "section": {
+                    "about": {
+                        "title": "Challenge",
+                        "text": "CLS learning solution is leading the technology learning market in Egypt, Middle East and Africa. The main challenge we faced was designing a straightforward and easy-navigation website in spite of the complicated data of the courses and learning paths and simultaneously maintain an outstanding visual design.",
+                        "image": "",
+                        "video": [],
+                        "imgs": [
+                            {
+                                "img": "cls/CLS_old.png",
+                                "caption": "- Old website"
+                            },
+                            {
+                                "img": "cls/CLS_UI_shot.png",
+                                "caption": "- New website"
+                            }
+                        ],
+                        "classes": {
+                            "Classmain": "about",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "justify-center col-md-12",
+                            "Classimage": "mx-2 photo",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand": {
+                        "title": "Information Architecture (IA)",
+                        "text": "The amount of data we received helped us to start immediately in doing information architecture activity, structuring, labeling and prioritizing content and navigation.",
+                        "image": "CaseStudy/cls/ia.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "brand",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "col-md-4",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand2": {
+                        "title": "Flows, Sketches and Design wireframes",
+                        "text": "We identified user flows, sketched concept and designed high fidelity wireframes. Once we received approval on the concept we finalized the whole wireframes flows.",
+                        "image": "CaseStudy/cls/CLS_WF.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "d-flex flex-wrap wrap-img",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "sitemap": {
+                        "title": "Visual Design and Development",
+                        "text": "After finalizing high fidelity wireframes, we did CLS UI design concept. Developing a dynamic website without affecting the UI design was challenging however following an agile module easily solved that by having the UI designer and developer collaborate with each other.",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "sitemap",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": ""
+                        },
+                        "last": true
+                    },
+                    "masonry": {
+                        "title": "",
+                        "text": "",
+                        "image": "",
+                        "imgs": [
+                            {
+                                "img": "cls/1.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "cls/2.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "",
+                                "caption": ""
+                            },
+                            {
+                                "img": "cls/3.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "cls/4.png",
+                                "caption": ""
+                            }
+                        ],
+                        "video": [],
+                        "classes": {
+                            "Classmain": "masonry",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "col-md-12 columns",
+                            "Classimage": "",
+                            "Classlayout": "",
+                            "ClassSection": "section no-opacity"
+                        }
+                    },
+                    "download": {
+                        "title": "Launching it wasn’t easy in CLS",
+                        "text": "It wasn’t easy to launch CLS website, we did a lot of feedback rounds to make sure that user will have a different and great learning experience on CLS website.",
+                        "meta": "Commercial website: www.clslearn.com",
+                        "image": "cls/Browser.png",
+                        "stores": {
+                            "google_play": "",
+                            "app_store": ""
+                        },
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "ClassSubtitle": "",
+                            "Classtext": "",
+                            "Classlayout": "text col-md-5",
+                            "ClassimageContainer": "col-md-7"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "Daily Needs app",
+            "series": [
+                "Mobile",
+                "Website",
+                "Branding"
+            ],
+            "image": "dailyneeds.jpg",
+            "slug": "dailyneeds",
+            "page": {
+                "banner": {
+                    "main_title": "Daily Needs",
+                    "secondery_title": "Nuitrition Website & Mob. App.",
+                    "text": "Changing people’s lifestyle by delivering ready-made healthy nutrition drinks.",
+                    "banner": "daily/banner.jpg",
+                    "categories": [
+                        {
+                            "img": "CaseStudy/casestudy/icons/Branding_icon.svg",
+                            "name": "Branding"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/mobile.svg",
+                            "name": "Mobile"
+                        },
+                        {
+                            "img": "CaseStudy/casestudy/icons/website.svg",
+                            "name": "Website"
+                        }
+                    ]
+                },
+                "section": {
+                    "warning": {
+                        "title": "",
+                        "text": "Note: This project is still under development. Stay tuned for final photos and previews of the application and the website after launching.",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "warning",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center red",
+                            "ClassimageContainer": "",
+                            "Classimage": "mx-2 photo",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        },
+                        "last": true
+                    },
+                    "about": {
+                        "title": "Altering lifestyles!",
+                        "text": "Daily needs is a mobile application that serves multiple healthy nutrition products, such as vegetables, cold pressed juices, detox programs, soaked drinks and plant milk. ",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "about",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "justify-center col-md-12",
+                            "Classimage": "mx-2 photo",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "brand": {
+                        "title": "Design thinking and Competitive Research",
+                        "text": "We brainstormed, gathered requirements and ideated on how we can persuade unhealthy people to change their lifestyles and to buy Daily Needs’ products. Based on that we sketched, emphasized personas and structured information architecture.",
+                        "image": "CaseStudy/daily/dt.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "brand",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "flex",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        },
+                        "last": true
+                    },
+                    "brand2": {
+                        "title": "",
+                        "text": "We listed and studied all potential competitors locally and globally before proceeding with the design implementation.",
+                        "image": "CaseStudy/daily/Woman-using-MacBook-13inch.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "freshBrand": {
+                        "title": "Fresh Branding",
+                        "text": "We proposed a wide variety of trendy branding logos and styles, and daily needs owners approved the freshest and neatest logo design.",
+                        "image": "CaseStudy/daily/logo.svg",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "wireframe": {
+                        "title": "User Stories and Wireframes",
+                        "text": "After brainstorming and market studies, we listed user stores and designed mobile wireframes.",
+                        "image": "CaseStudy/daily/WF2.png",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "features": {
+                        "title": "Mobile UI Design",
+                        "text": "Created a lively app to encourage people to change their lifestyle to healthier, hygienic and nutritious.",
+                        "image": "",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "features",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        },
+                        "feature": [
+                            {
+                                "title": "Discovery",
+                                "text": "At a glance users can explore daily needs categories, products and programs along with reading related articles and watching nutrition videos",
+                                "image": "CaseStudy/daily/u1.png",
+                                "Classmain": "",
+                                "Classtext": "col-md-6",
+                                "ClassimageContainer": "col-md-6"
+                            },
+                            {
+                                "title": "Categories",
+                                "text": "Daily needs has a large variety of products that we named and categorized to users' convenience.",
+                                "image": "CaseStudy/daily/u2.png",
+                                "Classmain": "flex-row-reverse",
+                                "Classtext": "col-md-6",
+                                "ClassimageContainer": "col-md-6 text-right"
+                            },
+                            {
+                                "title": "Orders",
+                                "text": "Orders can be tracked easily and scheduled as well to be delivered on a specific date and time.",
+                                "image": "CaseStudy/daily/u3.png",
+                                "Classmain": "",
+                                "Classtext": "col-md-6",
+                                "ClassimageContainer": "col-md-4"
+                            }
+                        ]
+                    },
+                    "masonry": {
+                        "title": "",
+                        "text": "",
+                        "image": "",
+                        "imgs": [
+                            {
+                                "img": "daily/1.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "daily/2.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "daily/3.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "daily/4.png",
+                                "caption": ""
+                            },
+                            {
+                                "img": "daily/5.png",
+                                "caption": ""
+                            }
+                        ],
+                        "video": [],
+                        "classes": {
+                            "Classmain": "masonry",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "col-md-12 columns",
+                            "Classimage": "",
+                            "Classlayout": "",
+                            "ClassSection": "section no-opacity"
+                        }
+                    },
+                    "download": {
+                        "title": "Delivering Project",
+                        "text": "The project still under development and we have finished UX and UI Design, soon we will launch IOS, Android mob app and eCommerce website.",
+                        "meta": "",
+                        "image": "",
+                        "stores": {
+                            "google_play": "",
+                            "app_store": ""
+                        },
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "ClassSubtitle": "",
+                            "Classtext": "",
+                            "Classlayout": "text col-md-8 offset-md-2 text-center",
+                            "ClassimageContainer": ""
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "name": "ACCM website",
+            "series": [
+                "Website"
+            ],
+            "image": "accm.jpg",
+            "slug": "accm",
+            "page": {
+                "banner": {
+                    "main_title": "ACCM",
+                    "secondery_title": "Oil & Gaz Website",
+                    "text": "ACCM’s website was revamped/ restyled from an old low impact website to a new attractive, UI designed website with more influence in the geology and mining field.",
+                    "banner": "accm/ACCM.jpg",
+                    "categories": [
+                        {
+                            "img": "CaseStudy/casestudy/icons/website.svg",
+                            "name": "Website design"
+                        }
+                    ]
+                },
+                "section": {
+                    "about": {
+                        "title": "Challenge",
+                        "text": "ACCM is a subsidiary of ASEC for mining, a pioneer in the domain of mining and geology for over 25 years in Egypt and in the MENA area. They aimed to have higher impact in the calcium carbonate market in the Middle East and in Egypt they had only one requirement is to have a supreme and incomparable website.",
+                        "image": "",
+                        "video": [],
+                        "imgs": [
+                            {
+                                "img": "accm/Old-Display.png",
+                                "caption": "- Old website"
+                            },
+                            {
+                                "img": "accm/New.png",
+                                "caption": "- New website"
+                            }
+                        ],
+                        "classes": {
+                            "Classmain": "about",
+                            "Classtitle": "text-center",
+                            "Classtext": "text-center",
+                            "ClassimageContainer": "justify-center col-md-12",
+                            "Classimage": "mx-2 photo",
+                            "Classlayout": "col-md-10 offset-md-1",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "commercial": {
+                        "title": "Sitemap & Visual Design",
+                        "text": "Knowing users’ needs was a critical detail for a commercial website that wasn’t provided due to the tight schedule. So, we started immediately with sitemap structuring, sketching and then dove into UI design.",
+                        "image": "CaseStudy/accm/full.jpg",
+                        "video": [],
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "text-left",
+                            "Classtext": "text-left",
+                            "ClassimageContainer": "full-screen",
+                            "Classimage": "",
+                            "Classlayout": "col-md-12",
+                            "ClassSection": "section"
+                        }
+                    },
+                    "download": {
+                        "title": "Launching website",
+                        "text": "Now ACCM is live having their elegant website presence and they can convey their messages to Middle East and Far East.",
+                        "meta": "Commercial website: accm.com.eg",
+                        "image": "",
+                        "stores": {
+                            "google_play": "",
+                            "app_store": ""
+                        },
+                        "classes": {
+                            "Classmain": "",
+                            "Classtitle": "",
+                            "ClassSubtitle": "",
+                            "Classtext": "",
+                            "Classlayout": "text col-md-8 offset-md-2 text-center",
+                            "ClassimageContainer": ""
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "team": [
+        {
+            "id": 1,
+            "name": "Maher Naji",
+            "title": "CEO / Founder",
+            "img": "Maher.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/mahernaji/"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ahmed Magdy",
+            "title": "UI Manager / Partner",
+            "img": "Magdy.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://linkedin.com"
+                },
+                {
+                    "id": 2,
+                    "icon": "dribbble",
+                    "url": "https://dribbble.com"
+                },
+                {
+                    "id": 3,
+                    "icon": "behance",
+                    "url": "https://behance.net"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Fatma ElMofty",
+            "title": "UX Manager",
+            "img": "Fatma.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/fatmaelmofty/"
+                },
+                {
+                    "id": 2,
+                    "icon": "behance",
+                    "url": "https://www.behance.net/fatmaelmofty"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Mohamed Attia",
+            "title": "Project Manager",
+            "img": "Attia.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/mohamed-attia/"
+                },
+                {
+                    "id": 2,
+                    "icon": "stack-overflow",
+                    "url": "https://stackoverflow.com/users/1327164/mohamed-magdy-attia"
+                },
+                {
+                    "id": 3,
+                    "icon": "github",
+                    "url": "https://github.com/MohamedMagdyAttia"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Ahmed Karaman",
+            "title": "UI Designer",
+            "img": "Karaman.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/ahmed-karaman-023218152"
+                },
+                {
+                    "id": 2,
+                    "icon": "dribbble",
+                    "url": "https://dribbble.com/Karaman"
+                },
+                {
+                    "id": 3,
+                    "icon": "behance",
+                    "url": "https://www.behance.net/GFX-Karaman"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Amira Badawy",
+            "title": "UX Designer",
+            "img": "Amira.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "http://www.linkedin.com/in/amira-ahmed"
+                },
+                {
+                    "id": 2,
+                    "icon": "dribbble",
+                    "url": "https://dribbble.com/Amira-UXD"
+                },
+                {
+                    "id": 3,
+                    "icon": "behance",
+                    "url": "https://www.behance.net/AmiraBadawy"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Abdallah Kamal",
+            "title": "UX Designer",
+            "img": "Abdullah.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/abdallahmkamal14/"
+                },
+                {
+                    "id": 2,
+                    "icon": "behance",
+                    "url": "https://www.behance.net/AbdallahMKamal/"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Kareem Fahmy",
+            "title": "Front-end Developer",
+            "img": "Karim.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/kareemfahmey"
+                },
+                {
+                    "id": 2,
+                    "icon": "github",
+                    "url": "https://github.com/KareemFahmey"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Ammar Yaser",
+            "title": "Front-end Developer",
+            "img": "Ammar.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/ammar-yaser-9a223069/"
+                },
+                {
+                    "id": 2,
+                    "icon": "github",
+                    "url": "https://github.com/ammarbasuony"
+                },
+                {
+                    "id": 3,
+                    "icon": "behance",
+                    "url": "https://www.behance.net/ammaryaser"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Doaa Edrees",
+            "title": "HR Manager",
+            "img": "Doaa.png",
+            "social": [
+                {
+                    "id": 1,
+                    "icon": "linkedin-in",
+                    "url": "https://www.linkedin.com/in/doaaidrees/"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Ali Sherif",
+            "title": "Coffee Expert / Office Hero",
+            "img": "Ali.png",
+            "social": []
+        }
+    ]
+}

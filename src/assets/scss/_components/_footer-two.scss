@@ -1,0 +1,37 @@
+// Footer Two 
+.footer-two {
+    text-align: center;
+    background-color: $gray;
+    padding: 60px 0;
+    overflow: hidden;
+
+    * {
+        color: #FFFFFF;
+    }
+
+    h1 {
+        color: #fff;
+        font-family: 'Poppin';
+        font-weight: 500;
+        margin: 0 0 40px;
+        font-size: 36px;
+    }
+
+    nav {
+        margin-top: 60px;
+
+        ul {
+            display: -webkit-inline-box;
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin: 0 8px;
+
+                i {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

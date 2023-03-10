@@ -1,0 +1,25 @@
+// Include Fontawesome
+@import '_libraries/fontawesome/fontawesome.scss';
+@import '_libraries/fontawesome/fa-brands.scss';
+@import '_libraries/fontawesome/fa-regular.scss';
+@import '_libraries/fontawesome/fa-solid.scss';
+
+// Include Bootstrap
+@import '_libraries/bootstrap/bootstrap.scss';
+
+// Import All Base Files
+@import '_base/_variables';
+@import '_base/_mixins';
+
+// Import All Components
+@import '_components/_all.scss';
+
+// Import All Layouts
+@import '_layout/_all.scss';
+
+// Import All Pages
+@import '_pages/_all.scss';
+
+// Import responsive
+@import '_base/_responsive';
+

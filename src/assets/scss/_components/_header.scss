@@ -1,0 +1,168 @@
+.top-bar {
+    margin-top: 34px;
+    display: -webkit-box;
+    position: relative;
+
+    .left-gradient {
+        opacity: 0 !important;
+        transition: opacity 0.9s;
+        height: 100%;
+        // width: 550px;
+        position: absolute;
+        top: 0;
+        // transition-delay: 0.5s;
+        background: unset !important;
+    }
+
+    .container {
+        position: relative;
+
+        a {
+            img {
+                transition: all 0.2s;
+
+                &.logo-white {
+                    position: absolute;
+                    left: 16px;
+                    opacity: 0;
+                }
+
+                &.logo-dark {
+                    opacity: 1;
+                }
+
+                &.mobile-logo {
+                    display: none;
+                }
+                &.logo-white-only {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    ul {
+        margin-bottom: 0;
+
+        li {
+            margin-left: 40px;
+
+            a {
+                font-family: 'Poppin';
+                font-weight: 300;
+                font-size: 18px;
+                color: $gray;
+                @include transition(all 0.2s);
+
+                &.active,
+                &:hover {
+                    color: $purple;
+                }
+            }
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        &.navbar {
+            float: right;
+            list-style: none;
+        }
+    }
+
+    &.fixed {
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        top: 0;
+        background-color: #fff;
+        z-index: 19;
+        // box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25098039215686274);
+        animation: comeBack 0.6s;
+    }
+
+    &.scrolling {
+        box-shadow: unset;
+        transition: all 0.7s;
+
+        a {
+            color: #fff !important;
+        }
+
+        .container {
+            position: relative;
+
+            a {
+                img {
+                    transition: all 0.2s;
+
+                    &.logo-white {
+                        opacity: 1;
+                    }
+
+                    &.logo-dark {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    // &.show-gradient {
+    //     .left-gradient {
+    //         opacity: 1 !important;
+    //     }
+    // }
+
+    // First Case Study
+    &.vetcode-gradient {
+        background-color: #886fe5;
+
+        .left-gradient {
+            background: linear-gradient(to right, rgba(118, 97, 195, 1), rgba(118, 97, 195, 1), transparent);
+        }
+    }
+
+    // Second Case Study
+    &.foodpage-gradient {
+        background-color: #f56f59;
+
+        .left-gradient {
+            background: linear-gradient(to right, rgba(226, 84, 60, 1), rgba(226, 84, 60, 1), transparent);
+        }
+    }
+
+    // Third Case Study 
+    &.el-hrameen-gradient {
+        background-color: rgba(43, 163, 121, 1);
+
+        .left-gradient {
+            background: linear-gradient(to right, rgba(65, 178, 132, 1), rgba(65, 178, 132, 1), transparent);
+        }
+    }
+
+    // Forth Case Study 
+    &.new-frontiers-gradient {
+        background-color: #d64d4c;
+
+        .left-gradient {
+            background: linear-gradient(to right, rgba(217, 67, 59, 1), rgba(217, 67, 59, 1), transparent);
+        }
+    }
+
+    // Fifth Case Study 
+    &.accm-gradient {
+        background-color: #3d99c2;
+
+        .left-gradient {
+            background: linear-gradient(to right, rgba(0, 119, 171, 1), rgba(0, 119, 171, 1), transparent);
+        }
+    }
+}
+
+.fake-header {
+    margin-top: 77px;
+    display: flow-root;
+}

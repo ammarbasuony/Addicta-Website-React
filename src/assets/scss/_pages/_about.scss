@@ -1,0 +1,326 @@
+.about-section {
+    text-align: center;
+    margin-bottom: 60px;
+
+    h1 {
+        font: $headline;
+        color: $gray;
+    }
+
+    p {
+        margin-bottom: 0;
+        word-wrap: break-all;
+
+        span {
+            color: $purple;
+        }
+    }
+}
+
+// Services
+.services-section {
+    @extend .about-section;
+    margin-top: 60px;
+
+    .services-items {
+        margin-top: 75px;
+        text-align: left;
+
+        .item {
+            margin-bottom: 60px;
+
+            img {
+                width: 34px;
+                height: auto;
+                margin-right: 15px;
+                float: left;
+            }
+
+            section {
+                display: flow-root;
+
+                h3 {
+                    margin-top: 10px;
+                    color: $gray;
+                    margin-bottom: 4px;
+                    font: $paragraph;
+                    font-weight: 300;
+                }
+
+                span {
+                    color: $gray;
+                    font: $paragraph;
+                    font-weight: 200;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        a {
+            margin: 15px auto 0;
+            display: table;
+        }
+    }
+}
+
+// Process
+.process-section {
+    @extend .about-section;
+    margin-top: 60px;
+
+    .progression {
+        position: relative;
+        margin-top: 60px;
+        display: flow-root;
+
+        .entry {
+            text-align: left;
+            width: 97.1%;
+            float: right;
+            margin-bottom: 60px;
+            position: relative;
+            transition: all 0.2s;
+
+            .timeline {
+                width: 2px;
+                margin: 0 auto;
+                height: 146%;
+                position: absolute;
+                background-color: #c9ddf9;
+                top: -134%;
+                left: -32px;
+                overflow: hidden;
+
+                .progressBar {
+                    width: 100%;
+                    height: 0%;
+                    transition: all 0.4s;
+                    background-color: $green;
+                }
+            }
+
+            img {
+                width: auto;
+                height: 40px;
+                float: left;
+                margin-right: 14px;
+            }
+
+            section {
+                display: flow-root;
+
+                h3 {
+                    font: $paragraph;
+                    color: $gray;
+                    margin-top: 4px;
+                    transition: all 0.2s;
+                    font-weight: 400;
+                }
+
+                p {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    transition: all 0.2s;
+
+
+                    span {
+                        color: $gray;
+                        font-weight: 400;
+                        transition: all 0.2s;
+
+                        font-size: 14px;
+                    }
+                }
+            }
+
+
+            &::before {
+                content: '';
+                border-radius: 50%;
+                width: 12px;
+                height: 12px;
+                background-color: #c9ddf9;
+                position: absolute;
+                top: 12px;
+                transition: all 0.25s;
+                left: -37px;
+            }
+
+            &:nth-of-type(6) {
+                &::before {
+                    border-radius: unset;
+                }
+            }
+
+            &.reached {
+
+                &::before {
+                    background-color: $green;
+                    width: 16px;
+                    left: -39px;
+                    height: 16px;
+                    z-index: 7;
+                    transition-delay: 0.4s;
+                }
+
+                .timeline {
+                    z-index: 1;
+
+                    .progressBar {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .timeline {
+            width: 2px;
+            margin: 0 auto;
+            height: calc(100% - 217px);
+            position: absolute;
+            background-color: #c9ddf9;
+            top: 21px;
+            z-index: -1;
+            overflow: hidden;
+
+            .progressBar {
+                width: 100%;
+                height: 40%;
+                transition: all 0.2s;
+                background-color: $green;
+            }
+        }
+    }
+}
+
+// Family 
+.family-pics {
+    @extend .about-section;
+    margin-top: 60px;
+
+    .pictures {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+        section {
+            margin: 0 8px 16px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+    }
+}
+
+// Team
+.the-team {
+    @extend .about-section;
+    // text-align: left;
+    margin-top: 60px;
+
+    .team-members {
+
+        .member {
+            margin-top: 60px;
+            position: relative;
+            top: 0;
+            transition: all 0.2s;
+
+            .photo {
+                position: relative;
+                height: 255px;
+                overflow: hidden;
+
+                .contact {
+                    position: absolute;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    background-color: rgba(110, 24, 233, 0.75);
+                    width: 100%;
+                    opacity: 0;
+                    transition: all 0.3s;
+                    justify-content: center;
+
+                    .social-icons {
+                        a {
+                            padding: 0;
+                            background: unset;
+                            margin: 0 8px;
+
+                            i {
+                                font-family: 'Font Awesome 5 Brands' !important;
+                            }
+                        }
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    transition: all 0.3s;
+                    filter: blur(0px);
+                }
+
+                &:hover {
+                    .contact {
+                        opacity: 1;
+                        z-index: 9;
+                    }
+
+                    img {
+                        filter: blur(8px);
+                    }
+                }
+            }
+
+            section {
+                margin-top: 15px;
+
+                h3 {
+                    font: $paragraph;
+                    font-weight: 400;
+                    color: $gray;
+                    margin-bottom: -5px;
+                }
+
+                span {
+                    color: #7F8DB4;
+                    font-size: 16px;
+                    font-family: 'Poppin';
+                    font-weight: 200;
+                }
+            }
+
+            &:hover {
+                top: -10px;
+            }
+        }
+    }
+}
+
+// Join 
+.join-team {
+    @extend .about-section;
+    margin-top: 60px;
+    margin-bottom: 0;
+
+    section {
+        margin-top: 60px;
+
+        a {
+            margin: 0 10px;
+
+            &.no-frame {
+                color: $purple;
+                background-color: unset;
+                text-transform: unset;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 18px;
+                letter-spacing: unset;
+            }
+        }
+    }
+}
